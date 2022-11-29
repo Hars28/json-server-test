@@ -54,6 +54,61 @@
                 "publisher": "Bloomsbury",
                 "cost": 1299,
                 "borrowed": false
-          }
+          },
+          {
+            "id":6,
+            "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+            "book_name": "Harry Potter and the Philosopher's Stone",
+            "author": "J. K. Rowling",
+                "genre": "business",
+                "edition": "2021",
+                "publisher": "Bloomsbury",
+                "cost": 1299,
+                "borrowed": false
+          },
+          {
+              "id":7,
+              "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+              "book_name": "Harry Potter and the Philosopher's Stone",
+              "author": "J. K. Rowling",
+                  "genre": "science",
+                  "edition": "2021",
+                  "publisher": "Bloomsbury",
+                  "cost": 199,
+                  "borrowed": false
+            },
+            {
+              "id":8,
+              "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+              "book_name": "Harry Potter and the Philosopher's Stone",
+              "author": "J. K. Rowling",
+                  "genre": "history",
+                  "edition": "2021",
+                  "publisher": "Bloomsbury",
+                  "cost": 129,
+                  "borrowed": false
+            },
+            {
+              "id":9,
+              "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+              "book_name": "Harry Potter and the Philosopher's Stone",
+              "author": "J. K. Rowling",
+                  "genre": "fiction",
+                  "edition": "2021",
+                  "publisher": "Bloomsbury",
+                  "cost": 1299,
+                  "borrowed": false
+            },
+            {
+              "id":10,
+              "image_url": "https://m.media-amazon.com/images/I/5165He67NEL.jpg",
+              "book_name": "Harry Potter and the Philosopher's Stone",
+              "author": "J. K. Rowling",
+                  "genre": "tech",
+                  "edition": "2021",
+                  "publisher": "Bloomsbury",
+                  "cost": 1299,
+                  "borrowed": false
+            }
       ]
 }
