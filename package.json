@@ -1,29 +1,20 @@
 {
-  "name": "json-server-test",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-    },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hars28/json-server-test.git"
+    "test": "nodemon src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hars28/json-server-test/issues"
-  },
-  "homepage": "https://github.com/Hars28/json-server-test#readme",
   "dependencies": {
+    "axios": "^1.2.1",
     "cors": "^2.8.5",
-    "json-serve": "^0.1.0",
-    "json-server": "^0.17.1"
-  },
-  "devDependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
     "nodemon": "^2.0.20"
   }
 }
