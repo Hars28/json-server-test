@@ -12,7 +12,7 @@ app.use(cors())
 app.use("/user",userRouter)
 app.use("/emi", emiRouter)
 
-mongoose.connect("mongodb://localhost:27017/mock-10").then(()=>{
+mongoose.connect("mongodb+srv://harsh:harsh@cluster0.mflch7u.mongodb.net/test?retryWrites=true&w=majority").then(()=>{
     app.listen(8080, () => {
         console.log("Server started")
     })
