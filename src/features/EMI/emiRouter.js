@@ -14,10 +14,10 @@ app.post("/calcemi", checkAuth,async(req,res) => {
       let total = Number(emi)*Number(tenure)
       try{
       let newemi= await Emi.create({user:id, loanamt, intrate, tenure, emi, total})
-      res.status(200).send({message:"Loan application processed successfully", newemi})
+      return res.status(200).send({message:"Loan application processed successfully", newemi})
     }
     catch(e){
-        res.status(500).send(e.message)
+       return res.status(500).send(e.message)
     }
 })
 
